@@ -24,7 +24,7 @@
           "default": "Vault Setup"
         },
         "Parameters": [
-          "EmailAddress",      
+          "EmailAddress",
           "KeyPairName",
           "VaultInstanceType"
         ]
@@ -396,7 +396,7 @@
                   ]
                 }, {
                   "Ref": "QSS3BucketName"
-                }, 
+                },
                 "hashicorp/consul/latest/templates/quickstart-hashicorp-consul.template"
               ]
             ]
@@ -508,7 +508,7 @@
         "DependsOn": "HashiCorpConsulStack",
         "Type": "AWS::CloudFormation::Stack",
         "Properties": {
-          "TemplateURL": "https://github.com/T-Wong/quickstart-hashicorp-vault/raw/develop/templates/quickstart-hashicorp-vault-master.template",
+          "TemplateURL": "https://github.com/T-Wong/quickstart-hashicorp-vault/raw/master/templates/quickstart-hashicorp-vault.template",
           "Parameters": {
             "PrivateSubnet1ID": {
               "Fn::GetAtt": [
