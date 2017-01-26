@@ -508,7 +508,7 @@
         "DependsOn": "HashiCorpConsulStack",
         "Type": "AWS::CloudFormation::Stack",
         "Properties": {
-          "TemplateURL": "https://github.com/T-Wong/quickstart-hashicorp-vault/raw/master/templates/quickstart-hashicorp-vault.template",
+          "TemplateURL": "https://s3-us-west-2.amazonaws.com/cf-templates-343722b6h1wm-us-west-2/2017026G8g-quickstart-hashicorp-vault.templatejph276ai9w3b0vhpt33o6flxr",
           "Parameters": {
             "PrivateSubnet1ID": {
               "Fn::GetAtt": [
